@@ -1,0 +1,201 @@
+{
+	"info": {
+		"_postman_id": "57c35b80-7592-4388-b0d4-5e96d0a66a34",
+		"name": "spring-oath",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25413355"
+	},
+	"item": [
+		{
+			"name": "Get Comments",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImIyZjgwYzYzNDYwMGVkMTMwNzIxMDFhOGI0MjIwNDQzNDMzZGIyODIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIzNTM4OTQyMDQzNDEtc3R2cWFmMnJsZ3Y0YnBzaDhhNHQ4b3RzNmZycGRyajAuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiIzNTM4OTQyMDQzNDEtc3R2cWFmMnJsZ3Y0YnBzaDhhNHQ4b3RzNmZycGRyajAuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMDUzNTY5NDY2NTg3MDM4MTY5OTUiLCJlbWFpbCI6ImFmZmFuYWZyaWRpMjcwNEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6Ii0wM0xROFdJU19sb0xJVDJWUUFhV2ciLCJuYW1lIjoiTXVoYW1tYWQgQWZmYW4iLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSlY3UmdWaGxyS19OYWx3TW1aUWxndGxzOE5HZ2dMMmxRbzdudjVTM0N0b056a2xBPXM5Ni1jIiwiZ2l2ZW5fbmFtZSI6Ik11aGFtbWFkIiwiZmFtaWx5X25hbWUiOiJBZmZhbiIsImlhdCI6MTcyNTE4MDI3NywiZXhwIjoxNzI1MTgzODc3fQ.A-BNodKOCy_4r3X1NGA_NNpvhk6m7gMt5tAE9j8lcNeX158ZOwksqgl0GhKUzTV5lcZWWLoR4iJIxbHf5w-AtlItf6g0VlsyawUD6I3d2HFfDTi4fwvOdEuddu6VtIILsTupHDdVzrjdA--PkM1nPO7hkdHqjFAji3GfTG1gm12D_IoJqbuKdyza1MAMKHlcLGMPxdSiNlQNGOOH-JOHMr6QB306GMxpbJevVhaGIzd29y4_GNCCfNX65_a6lx1wjpohBbmtlxsM9vCnhPT-cPkPELJaL4djFNtb1BcG2qCKotEKVMStZq2UJYhT6BYeBI1WWlu8L6K92jN4LJlIHQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/comments",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"comments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Users",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImIyZjgwYzYzNDYwMGVkMTMwNzIxMDFhOGI0MjIwNDQzNDMzZGIyODIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIzNTM4OTQyMDQzNDEtc3R2cWFmMnJsZ3Y0YnBzaDhhNHQ4b3RzNmZycGRyajAuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiIzNTM4OTQyMDQzNDEtc3R2cWFmMnJsZ3Y0YnBzaDhhNHQ4b3RzNmZycGRyajAuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMDUzNTY5NDY2NTg3MDM4MTY5OTUiLCJlbWFpbCI6ImFmZmFuYWZyaWRpMjcwNEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6Ii0wM0xROFdJU19sb0xJVDJWUUFhV2ciLCJuYW1lIjoiTXVoYW1tYWQgQWZmYW4iLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSlY3UmdWaGxyS19OYWx3TW1aUWxndGxzOE5HZ2dMMmxRbzdudjVTM0N0b056a2xBPXM5Ni1jIiwiZ2l2ZW5fbmFtZSI6Ik11aGFtbWFkIiwiZmFtaWx5X25hbWUiOiJBZmZhbiIsImlhdCI6MTcyNTE4MDI3NywiZXhwIjoxNzI1MTgzODc3fQ.A-BNodKOCy_4r3X1NGA_NNpvhk6m7gMt5tAE9j8lcNeX158ZOwksqgl0GhKUzTV5lcZWWLoR4iJIxbHf5w-AtlItf6g0VlsyawUD6I3d2HFfDTi4fwvOdEuddu6VtIILsTupHDdVzrjdA--PkM1nPO7hkdHqjFAji3GfTG1gm12D_IoJqbuKdyza1MAMKHlcLGMPxdSiNlQNGOOH-JOHMr6QB306GMxpbJevVhaGIzd29y4_GNCCfNX65_a6lx1wjpohBbmtlxsM9vCnhPT-cPkPELJaL4djFNtb1BcG2qCKotEKVMStZq2UJYhT6BYeBI1WWlu8L6K92jN4LJlIHQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Posts",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImIyZjgwYzYzNDYwMGVkMTMwNzIxMDFhOGI0MjIwNDQzNDMzZGIyODIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIzNTM4OTQyMDQzNDEtc3R2cWFmMnJsZ3Y0YnBzaDhhNHQ4b3RzNmZycGRyajAuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiIzNTM4OTQyMDQzNDEtc3R2cWFmMnJsZ3Y0YnBzaDhhNHQ4b3RzNmZycGRyajAuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMDUzNTY5NDY2NTg3MDM4MTY5OTUiLCJlbWFpbCI6ImFmZmFuYWZyaWRpMjcwNEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6Ii0wM0xROFdJU19sb0xJVDJWUUFhV2ciLCJuYW1lIjoiTXVoYW1tYWQgQWZmYW4iLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSlY3UmdWaGxyS19OYWx3TW1aUWxndGxzOE5HZ2dMMmxRbzdudjVTM0N0b056a2xBPXM5Ni1jIiwiZ2l2ZW5fbmFtZSI6Ik11aGFtbWFkIiwiZmFtaWx5X25hbWUiOiJBZmZhbiIsImlhdCI6MTcyNTE4MDI3NywiZXhwIjoxNzI1MTgzODc3fQ.A-BNodKOCy_4r3X1NGA_NNpvhk6m7gMt5tAE9j8lcNeX158ZOwksqgl0GhKUzTV5lcZWWLoR4iJIxbHf5w-AtlItf6g0VlsyawUD6I3d2HFfDTi4fwvOdEuddu6VtIILsTupHDdVzrjdA--PkM1nPO7hkdHqjFAji3GfTG1gm12D_IoJqbuKdyza1MAMKHlcLGMPxdSiNlQNGOOH-JOHMr6QB306GMxpbJevVhaGIzd29y4_GNCCfNX65_a6lx1wjpohBbmtlxsM9vCnhPT-cPkPELJaL4djFNtb1BcG2qCKotEKVMStZq2UJYhT6BYeBI1WWlu8L6K92jN4LJlIHQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/posts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"posts"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Users Posts",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImIyZjgwYzYzNDYwMGVkMTMwNzIxMDFhOGI0MjIwNDQzNDMzZGIyODIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIzNTM4OTQyMDQzNDEtc3R2cWFmMnJsZ3Y0YnBzaDhhNHQ4b3RzNmZycGRyajAuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiIzNTM4OTQyMDQzNDEtc3R2cWFmMnJsZ3Y0YnBzaDhhNHQ4b3RzNmZycGRyajAuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMDUzNTY5NDY2NTg3MDM4MTY5OTUiLCJlbWFpbCI6ImFmZmFuYWZyaWRpMjcwNEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6Ii0wM0xROFdJU19sb0xJVDJWUUFhV2ciLCJuYW1lIjoiTXVoYW1tYWQgQWZmYW4iLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSlY3UmdWaGxyS19OYWx3TW1aUWxndGxzOE5HZ2dMMmxRbzdudjVTM0N0b056a2xBPXM5Ni1jIiwiZ2l2ZW5fbmFtZSI6Ik11aGFtbWFkIiwiZmFtaWx5X25hbWUiOiJBZmZhbiIsImlhdCI6MTcyNTE4MDI3NywiZXhwIjoxNzI1MTgzODc3fQ.A-BNodKOCy_4r3X1NGA_NNpvhk6m7gMt5tAE9j8lcNeX158ZOwksqgl0GhKUzTV5lcZWWLoR4iJIxbHf5w-AtlItf6g0VlsyawUD6I3d2HFfDTi4fwvOdEuddu6VtIILsTupHDdVzrjdA--PkM1nPO7hkdHqjFAji3GfTG1gm12D_IoJqbuKdyza1MAMKHlcLGMPxdSiNlQNGOOH-JOHMr6QB306GMxpbJevVhaGIzd29y4_GNCCfNX65_a6lx1wjpohBbmtlxsM9vCnhPT-cPkPELJaL4djFNtb1BcG2qCKotEKVMStZq2UJYhT6BYeBI1WWlu8L6K92jN4LJlIHQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/posts/23445",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"posts",
+						"23445"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Post comments",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImIyZjgwYzYzNDYwMGVkMTMwNzIxMDFhOGI0MjIwNDQzNDMzZGIyODIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIzNTM4OTQyMDQzNDEtc3R2cWFmMnJsZ3Y0YnBzaDhhNHQ4b3RzNmZycGRyajAuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiIzNTM4OTQyMDQzNDEtc3R2cWFmMnJsZ3Y0YnBzaDhhNHQ4b3RzNmZycGRyajAuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMDUzNTY5NDY2NTg3MDM4MTY5OTUiLCJlbWFpbCI6ImFmZmFuYWZyaWRpMjcwNEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6Ilh6Yk5vVU9XVzdqcjZmTjh1Mkd5Q0EiLCJuYW1lIjoiTXVoYW1tYWQgQWZmYW4iLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSlY3UmdWaGxyS19OYWx3TW1aUWxndGxzOE5HZ2dMMmxRbzdudjVTM0N0b056a2xBPXM5Ni1jIiwiZ2l2ZW5fbmFtZSI6Ik11aGFtbWFkIiwiZmFtaWx5X25hbWUiOiJBZmZhbiIsImlhdCI6MTcyNTE4NTMxMiwiZXhwIjoxNzI1MTg4OTEyfQ.SD647qKbJ6j8WAaExF-U54g_FacbJ2ZsPA0cI0gQgaXnYd-aO_0pmAtp2jdH3wX9VJ-nM0j2t1wQt-3-uqc2PPh4PciTeoBzPeOhWiWMcKAhDDI6GWtlXNAN6Tt4hyiEOoM-CedPGaleVWCZTyTABnRbo9LE9O5bQSgVvPYHso0NQamyQQK2Jb5Z6j77CrKkw9Z82erJtGssEUg0YCjS8X7d3l40fw-4XbnsxKSSLyB0IXyRZ1Ptj4uUDfsPslQ19gqM0HIZmWKgDQYayWi65zpEQMM4eFM0IiB08qaRXa2QoGAyy65ivAd4xxOMgl2xuyIiasocCWCko2p_jqqe8Q",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/posts/153061/comments",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"posts",
+						"153061",
+						"comments"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get User Posts",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsImtpZCI6ImIyZjgwYzYzNDYwMGVkMTMwNzIxMDFhOGI0MjIwNDQzNDMzZGIyODIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIzNTM4OTQyMDQzNDEtc3R2cWFmMnJsZ3Y0YnBzaDhhNHQ4b3RzNmZycGRyajAuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJhdWQiOiIzNTM4OTQyMDQzNDEtc3R2cWFmMnJsZ3Y0YnBzaDhhNHQ4b3RzNmZycGRyajAuYXBwcy5nb29nbGV1c2VyY29udGVudC5jb20iLCJzdWIiOiIxMDUzNTY5NDY2NTg3MDM4MTY5OTUiLCJlbWFpbCI6ImFmZmFuYWZyaWRpMjcwNEBnbWFpbC5jb20iLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwiYXRfaGFzaCI6Ilh6Yk5vVU9XVzdqcjZmTjh1Mkd5Q0EiLCJuYW1lIjoiTXVoYW1tYWQgQWZmYW4iLCJwaWN0dXJlIjoiaHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSlY3UmdWaGxyS19OYWx3TW1aUWxndGxzOE5HZ2dMMmxRbzdudjVTM0N0b056a2xBPXM5Ni1jIiwiZ2l2ZW5fbmFtZSI6Ik11aGFtbWFkIiwiZmFtaWx5X25hbWUiOiJBZmZhbiIsImlhdCI6MTcyNTE4NTMxMiwiZXhwIjoxNzI1MTg4OTEyfQ.SD647qKbJ6j8WAaExF-U54g_FacbJ2ZsPA0cI0gQgaXnYd-aO_0pmAtp2jdH3wX9VJ-nM0j2t1wQt-3-uqc2PPh4PciTeoBzPeOhWiWMcKAhDDI6GWtlXNAN6Tt4hyiEOoM-CedPGaleVWCZTyTABnRbo9LE9O5bQSgVvPYHso0NQamyQQK2Jb5Z6j77CrKkw9Z82erJtGssEUg0YCjS8X7d3l40fw-4XbnsxKSSLyB0IXyRZ1Ptj4uUDfsPslQ19gqM0HIZmWKgDQYayWi65zpEQMM4eFM0IiB08qaRXa2QoGAyy65ivAd4xxOMgl2xuyIiasocCWCko2p_jqqe8Q",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/api/v1/users/7380216/posts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"users",
+						"7380216",
+						"posts"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
